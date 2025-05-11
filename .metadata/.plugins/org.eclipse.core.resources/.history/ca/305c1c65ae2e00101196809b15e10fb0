@@ -31,8 +31,6 @@ public class Roller {
         			"\nBACKGROUND: " + backgrounds[backPick] +
         			"\nRACE: " + races[racePick]);
         	
-        	System.out.print("\n\nWould you like to generate a new character? (y/n): ");
-        	
         redo = scanner.next().charAt(0);	
         }while(redo == 'y'|| redo == 'Y');
 	}

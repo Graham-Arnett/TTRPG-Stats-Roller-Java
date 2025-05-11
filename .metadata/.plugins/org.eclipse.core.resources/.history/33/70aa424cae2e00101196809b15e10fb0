@@ -27,12 +27,6 @@ public class Roller {
         		System.out.print(scores[i] + "\n");
         	}
         	
-        	System.out.print("CLASS: " + classes[classPick] +
-        			"\nBACKGROUND: " + backgrounds[backPick] +
-        			"\nRACE: " + races[racePick]);
-        	
-        	System.out.print("\n\nWould you like to generate a new character? (y/n): ");
-        	
         redo = scanner.next().charAt(0);	
         }while(redo == 'y'|| redo == 'Y');
 	}
